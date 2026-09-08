@@ -1,0 +1,27 @@
+{
+  "connector_id": "google-drive-readonly",
+  "name": "Google Drive (Read-Only Connector)",
+  "provider": "Google Workspace OAuth 2.0",
+  "status": "connected",
+  "access_level": "read-only",
+  "authorized_user": "syedagulzarbano@gmail.com",
+  "granted_scopes": [
+    "https://www.googleapis.com/auth/drive.readonly",
+    "https://www.googleapis.com/auth/drive.metadata.readonly"
+  ],
+  "forbidden_scopes": [
+    "https://www.googleapis.com/auth/drive.file",
+    "https://www.googleapis.com/auth/drive"
+  ],
+  "capabilities": {
+    "file_search": true,
+    "file_read": true,
+    "file_write": false,
+    "file_delete": false,
+    "sharing_modification": false
+  },
+  "audit_trail": {
+    "last_sync": "2026-09-08T17:10:00+05:00",
+    "security_verification": "PASSED - Zero write permissions active"
+  }
+}

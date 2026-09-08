@@ -1,0 +1,8 @@
+Date,Transaction_ID,Category,Description,Amount_USD,Status
+2026-03-01,TXN-1001,Cloud Services,AWS Hosting Infrastructure,1250.00,Settled
+2026-03-03,TXN-1002,Software,Claude Enterprise Subscriptions,480.00,Settled
+2026-03-05,TXN-1003,Marketing,LinkedIn Ad Campaign - Agentic AI,2100.00,Settled
+2026-03-10,TXN-1004,Consulting,Security Audit & Compliance Review,3500.00,Settled
+2026-03-15,TXN-1005,Cloud Services,Pinecone Vector Database Tier 2,650.00,Settled
+2026-03-22,TXN-1006,Hardware,Edge Device Testing Racks,1850.00,Settled
+2026-03-28,TXN-1007,Software,GitHub Enterprise & Copilot Seats,920.00,Settled

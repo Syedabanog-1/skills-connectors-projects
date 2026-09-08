@@ -1,0 +1,13 @@
+Class Notes - Week 4: Autonomous Agent Architecture & Tool Binding
+
+Instructor: Agentic Systems Design
+Date: Sept 2026
+
+Topics covered today:
+We discussed how modern AI agents differ from plain chat models. Plain models respond to prompts directly in a single pass. Autonomous agents operate inside execution loops where they can plan, reason, select external tools, and handle errors dynamically.
+
+Key concept 1: Execution Loops & Planning. An agent takes a user goal, breaks it down into sub-tasks (task decomposition), evaluates progress at each step, and adjusts actions dynamically based on tool results.
+Key concept 2: Tool Binding & Schema Invocation. Tools are exposed to agents via structured schemas (e.g. JSON Schema). The agent selects the tool function, provides typed arguments, and waits for system execution output.
+Key concept 3: Context Window Management. Long-running execution loops generate large histories. Agents use truncation, knowledge items, or summarization to prevent exceeding model context limits.
+
+Next week setup: We will connect live web services and file systems to the agent.

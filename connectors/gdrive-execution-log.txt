@@ -1,0 +1,12 @@
+[2026-09-08 17:05:12 PKT] [INFO] Claude Connector Engine initialized.
+[2026-09-08 17:05:14 PKT] [OAUTH] Initiating user authorization for Google Drive Connector...
+[2026-09-08 17:05:22 PKT] [OAUTH] OAuth grant received from syedagulzarbano@gmail.com.
+[2026-09-08 17:05:23 PKT] [SECURITY] Scope inspection: https://www.googleapis.com/auth/drive.readonly [GRANTED]
+[2026-09-08 17:05:23 PKT] [SECURITY] Scope inspection: https://www.googleapis.com/auth/drive [DENIED/NOT REQUESTED]
+[2026-09-08 17:05:25 PKT] [CONNECTOR] Toggle state for session: ACTIVE (Read-Only)
+[2026-09-08 17:06:01 PKT] [USER_QUERY] "Find my most recent document in my Drive, pull the three facts or numbers that matter most, and give me a one-line summary of what it is."
+[2026-09-08 17:06:03 PKT] [API_CALL] GET https://www.googleapis.com/drive/v3/files?orderBy=modifiedTime%20desc&pageSize=1
+[2026-09-08 17:06:04 PKT] [API_RESP] Found document: "Q3_AI_Agent_Deployment_Report_2026.docx" (ID: 1x89FkL_m902A_Drive)
+[2026-09-08 17:06:05 PKT] [API_CALL] GET https://www.googleapis.com/drive/v3/files/1x89FkL_m902A_Drive?alt=media
+[2026-09-08 17:06:06 PKT] [DATA_FETCH] 4,210 bytes fetched cleanly. Zero local copy-paste required.
+[2026-09-08 17:06:07 PKT] [OUTPUT_GENERATED] Output successfully returned to user.
